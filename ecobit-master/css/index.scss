@@ -1,0 +1,22 @@
+@import 'sass/helpers/variables';
+@import 'sass/helpers/mixins';
+
+@import 'sass/components/buttons';
+@import 'sass/components/head';
+@import 'sass/components/form';
+@import 'sass/components/navbar';
+@import 'sass/components/animation';
+@import 'sass/components/subscribe-us';
+
+
+@import 'sass/layout/header';
+@import 'sass/layout/about-us';
+@import 'sass/layout/blog-right';
+@import 'sass/layout/footer';
+@import 'sass/layout/sasu';
+
+@import 'sass/pages/blog';
+@import 'sass/pages/contact';
+@import 'sass/pages/home';
+@import 'sass/pages/pricing';
+@import 'sass/pages/single-blog';

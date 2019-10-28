@@ -1,0 +1,36 @@
+.sasu {
+    margin: 140px 0 100px;
+    position: relative;
+    .feature {
+        margin-bottom: 50px;
+        .img-features {
+            width: 70px
+        }
+        h3 {
+            font-size: 19px;
+            font-weight: bold;
+            margin: 35px 0 25px;
+        }
+        p {
+            color: $p-Color;
+            line-height: 1.8;
+            font-size: 15px;
+            width: 85%;
+            margin: 0 auto;
+        }
+        .features_icon_1 {
+            position: absolute;
+            left: 22%;
+            top: 15%;
+            z-index: -1;
+        }
+    }
+}
+
+@media #{$maxSmall} {
+    .sasu {
+        p {
+            font-size: 13px;
+        }
+    }
+}

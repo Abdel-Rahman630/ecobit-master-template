@@ -1,0 +1,104 @@
+.subscribe {
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    position: relative;
+    h1 {
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 1.3;
+        color: black;
+        margin-bottom: 60px;
+    }
+    .p-none {
+        padding: 0
+    }
+    form {
+        .form-control {
+            border-radius: 0;
+            font-size: 14px;
+            letter-spacing: 2px;
+            padding: 39px 25px;
+            color: #495057;
+            text-transform: uppercase;
+        }
+        .button {
+            border-radius: 0;
+            height: 79px;
+            width: 185px;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+        }
+    }
+    .animate1 {
+        position: absolute;
+        left: 30%;
+        top: 110%;
+        opacity: 0.7;
+    }
+}
+
+@media #{$maxLarge} {
+    .subscribe {
+        h1 {
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
+    }
+    form {
+        .form-control {
+            font-size: 12px !important;
+            padding: 25px 20px !important;
+        }
+        .button {
+            height: 52px !important;
+            width: 150px !important;
+            padding: 0 !important;
+        }
+    }
+}
+
+@media #{$maxSmall} {
+    .subscribe {
+        h1 {
+            font-size: 25px !important;
+        }
+    }
+}
+
+@media #{$maxMobile} {
+    .subscribe {
+        width: 100%;
+        margin: 50px 0 !important;
+        h1 {
+            font-size: 20px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        form {
+            input {
+                font-size: 12px !important;
+                padding: 25px 20px !important;
+            }
+            .button {
+                height: 52px !important;
+                width: 150px !important;
+                padding: 0 !important;
+            }
+        }
+    
+        .p-none {
+            padding: 0px 15px;
+            margin-top: 20px;
+            .button {
+                width: 100% !important;
+            }
+        }
+
+    }
+
+}

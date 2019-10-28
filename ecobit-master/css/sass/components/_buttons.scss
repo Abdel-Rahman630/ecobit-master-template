@@ -1,0 +1,28 @@
+.button {
+    background: $mainColor;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    width: 170px;
+    height: 50px;
+    font-size: 13px;
+    border-radius: 40px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    &:hover {
+        background: white;
+        color: $mainColor;
+        border: 2px solid $mainColor;
+    }
+}
+
+@media #{$maxMobile} {
+    .button {
+        width: 140px !important;
+        height: 45px !important;
+        font-size: 11px !important;
+    }
+}

@@ -1,0 +1,45 @@
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  position: relative;
+  z-index: 150;
+  padding: 10px 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+nav .container-fluid {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+nav .container-fluid .navbar-brand {
+  padding: 15px 100px 0 10px;
+}
+
+nav .container-fluid .navbar-nav {
+  padding-top: 10px;
+}
+
+nav .container-fluid .navbar-nav li {
+  padding-right: 10px;
+}
+
+nav .container-fluid .navbar-nav li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+nav .container-fluid .navbar-nav li a:hover {
+  background-color: transparent;
+}

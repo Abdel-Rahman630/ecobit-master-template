@@ -1,0 +1,91 @@
+.contact {
+    overflow: hidden;
+    margin: 150px 0;
+    h1 {
+        font-weight: bold;
+        padding-left: 15px;
+    }
+    .mapouter {
+        position:relative;
+        text-align:right;
+        height: 480px;
+        max-width: 1170px;
+        width: auto;
+        margin-bottom: 80px;
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            height: 480px;
+            max-width: 1170px;
+            width: auto;
+        }
+    }
+    form {
+        textarea,
+        input {
+            width: 100%;
+            border: 1px solid #8080803b;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            padding: 15px;
+        }
+        textarea {
+            height: 180px;
+        }
+        button {
+            background: white;
+            border: 1px solid #00000066;
+            padding: 5px 5px 5px 20px;
+            font-size: 15px;
+            text-transform: uppercase;
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 60px;
+            align-items: center;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            &:hover {
+                border: 1px solid #7c32ff;
+                color: #7c32ff !important;
+            }
+            svg {
+                color: #fff;
+                width: 50px !important;
+                height: 50px;
+                background-color: $mainColor;
+                display: inline-block;
+                line-height: 50px;
+                margin-left: 20px;
+                background-size: 200% auto;
+                padding: 12px;
+            }
+        }
+    }
+    .media {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        svg {
+            margin-right: 20px;
+            color: $p-Color;
+            font-size: 25px;
+        }
+        p {
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+
+        span {
+            color: $p-Color;
+            font-size: 17px;
+        }
+        
+    }
+}
